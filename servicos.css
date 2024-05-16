@@ -31,3 +31,62 @@ nav {
     top: 100px;
     right: 0;
 }
+
+nav a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.servicos li:hover {
+    border-color: orangered;
+}
+
+.servicos li:active {
+    border-color: chartreuse;
+}
+
+.servicos li:hover h2{
+    font-size: 34px;
+}
+
+.servicos li img {
+    width: 200px;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servico-descricao {
+    font-size: 18px;
+}
+
+.servico-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+}
