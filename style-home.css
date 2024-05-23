@@ -1,0 +1,27 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+p {
+    text-align: center;
+    
+}
+body {
+    
+}
+header {
+    background-color: antiquewhite;
+}
+main {
+    background-color: aquamarine;
+}
+footer{
+    background-color: darkgrey;
+    text-align: center;
+}
+#banner {
+    width: 600px;
+}
+.img-banner {
+    text-align: center;
+}

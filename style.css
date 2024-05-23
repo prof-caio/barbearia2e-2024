@@ -1,27 +1,125 @@
-h1 {
-    color: blueviolet;
-    text-align: center;
+header h1 img{
+    width: 200px;
 }
-p {
-    text-align: center;
-    
-}
-body {
-    
-}
+
 header {
-    background-color: antiquewhite;
-}
-main {
     background-color: aquamarine;
+    padding: 20px 0;
 }
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+nav a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.servicos li:hover {
+    border-color: orangered;
+}
+
+.servicos li:active {
+    border-color: chartreuse;
+}
+
+.servicos li:hover h2{
+    font-size: 34px;
+}
+
+.servicos li img {
+    width: 200px;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servico-descricao {
+    font-size: 18px;
+}
+
+.servico-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 footer{
-    background-color: darkgrey;
+    background-color: aquamarine;
     text-align: center;
+    padding: 40px 0;
 }
-#banner {
-    width: 600px;
+
+footer img {
+    width: 200px;
 }
-.img-banner {
-    text-align: center;
+
+.copyright {
+    color: black;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
